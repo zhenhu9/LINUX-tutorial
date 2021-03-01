@@ -785,6 +785,9 @@ document		/* 此处为输入。
 delimiter		/* 结束符表示输入结束。
 ```
 
+示例：
+
+```
 /* 将键盘输入的信息导入到 cat 命令，cat 命令再输出到指定文件，指定输入结束符为 EOF。
 # cat > test2.txt << EOF
 abc
